@@ -1,7 +1,8 @@
+<html>
 <body>
 
 <div id="navigation">
-<h1>MXE (M&nbsp;cross&nbsp;environment)</h1>
+<h1>Cross platform</h1>
 
     <ul>
         <li><a href="#introduction"     >Introduction</a></li>
@@ -27,6 +28,19 @@
 <div class="section">
 <h2 id="introduction">Introduction</h2>
 
+    <p>
+    Set of make commands and patches to cross-compile hundreds of packages for windows. This project is a fork of the MXE project. It allows you to have :
+    <ul>
+      <li>the mingw.org 32 bit repository (the one maintained by MXE)</li>
+      <li>mingw-w64 32/64 bit repository</li>
+    </ul>
+    </p>
+	<p>
+    The MXE project has a great community and works well for the "mingw.org 32 bit" repository. The cross-platform project is experimental and allows you to commit your work when it suits the MXE system (Makefile, *.mk files, patches) but does not fit the mingw.org main repository.
+    </p>
+    <p>
+    This project aims to be integrated in MXE in the futur. Please visit http://mxe.cc/ for more information on MXE.
+    </p>
     <p>
     MXE (M cross environment) is a Makefile that
     compiles a cross compiler and cross compiles
@@ -797,7 +811,9 @@ USE_OSGPLUGIN(&lt;plugin2&gt;)
     <p>
     See something missing? Feel free to <a href="#creating-packages">create a new package</a>.
     </p>
-    <h3>mingw.org</h3>
+    <p>
+    mingw.org
+    </p>
     <table id="package-list">
     <tr>
         <td id="mingw.org-agg-package">agg</td>
@@ -1760,7 +1776,9 @@ USE_OSGPLUGIN(&lt;plugin2&gt;)
         <td id="zziplib-website"><a href="http://zziplib.sourceforge.net/">ZZIPlib</a></td>
     </tr>
     </table>
-    <h3>mingw-w64</h3>
+    <p>
+    mingw-w64
+    </p>
     <table id="package-list">
     <tr>
         <td id="mingw-w64-agg-package">agg</td>
