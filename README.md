@@ -1,4 +1,3 @@
-<html>
 <body>
 
 <div id="navigation">
@@ -798,9 +797,7 @@ USE_OSGPLUGIN(&lt;plugin2&gt;)
     <p>
     See something missing? Feel free to <a href="#creating-packages">create a new package</a>.
     </p>
-    <p>
-    mingw.org
-    </p>
+    <h3>mingw.org</h3>
     <table id="package-list">
     <tr>
         <td id="mingw.org-agg-package">agg</td>
@@ -1763,9 +1760,7 @@ USE_OSGPLUGIN(&lt;plugin2&gt;)
         <td id="zziplib-website"><a href="http://zziplib.sourceforge.net/">ZZIPlib</a></td>
     </tr>
     </table>
-    <p>
-    mingw-w64
-    </p>
+    <h3>mingw-w64</h3>
     <table id="package-list">
     <tr>
         <td id="mingw-w64-agg-package">agg</td>
